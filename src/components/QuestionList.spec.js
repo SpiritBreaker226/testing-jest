@@ -7,7 +7,7 @@ describe('The Question List Component', () => {
     console.log('Before all!')
   })
 
-  it.skip('should display a list of items', () => {
+  it.only('should display a list of items', () => {
     expect(40 + 2).toEqual(42)
   })
 
